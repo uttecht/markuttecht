@@ -1,0 +1,92 @@
+name = Classic Profile
+description = Drupal 7 Responsive Classic themes.
+version = VERSION
+core = 7.x
+; ----------
+; Dependencies
+; ----------
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = blog
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = php
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = update
+dependencies[] = user
+; Fields
+dependencies[] = blockreference
+dependencies[] = field_slideshow
+dependencies[] = link
+dependencies[] = viewreference
+; FlexSlider
+dependencies[] = flexslider
+dependencies[] = flexslider_fields
+dependencies[] = flexslider_views
+; Input filters
+dependencies[] = jquery_ui_filter
+dependencies[] = jquery_ui_filter_accordion
+dependencies[] = jquery_ui_filter_tabs
+; Mail
+dependencies[] = simplenews
+; Media
+dependencies[] = file_entity
+dependencies[] = imce
+; Other
+dependencies[] = back_to_top
+dependencies[] = exclude_node_title
+dependencies[] = faq
+dependencies[] = follow
+dependencies[] = fontawesome
+dependencies[] = image_url_formatter
+dependencies[] = libraries
+dependencies[] = locationmap
+dependencies[] = menu_block
+dependencies[] = pathauto
+dependencies[] = quicktabs
+dependencies[] = quicktabs_tabstyles
+dependencies[] = similar
+dependencies[] = tipsy
+dependencies[] = token
+; User interface
+dependencies[] = imce_wysiwyg
+dependencies[] = jcarousel
+dependencies[] = jquery_update
+dependencies[] = lightbox2
+dependencies[] = wysiwyg
+; Views
+dependencies[] = views
+dependencies[] = views_isotope
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_ui
+; Features
+dependencies[] = features
+
+files[] = classic_profile.profile

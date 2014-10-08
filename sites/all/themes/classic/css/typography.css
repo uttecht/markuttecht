@@ -1,0 +1,192 @@
+@font-face{font-family:'aller_lightregular';src:url(fonts/aller_lt-webfont.eot);src:url(fonts/aller_lt-webfont.eot?#iefix) format('embedded-opentype'),url(fonts/aller_lt-webfont.woff) format('woff'),url(fonts/aller_lt-webfont.ttf) format('truetype'),url(fonts/aller_lt-webfont.svg#aller_lightregular) format('svg');font-weight:normal;font-style:normal;}
+
+
+body {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 85%;
+  word-wrap: break-word;
+  -webkit-text-size-adjust: 100%; /* corrects font-sizing strangeness in iOS */
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration:underline; /* default hover style for links */
+}
+
+/*  Basic typography & Headings  */
+
+h1, h1 a, 
+h2, h2 a, 
+h3, h3 a, 
+h4, h4 a, 
+h5, h5 a,
+h6, h6 a {
+  font-weight: 500;
+  margin: 0 0 .6em 0;
+  letter-spacing: -.055em;
+  /*font-family: Georgia, "Times New Roman", Times, serif !important;*/
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.3em;
+  line-height: 28px;
+}
+h4 {
+  font-size: 1.1em;
+}
+h5 {
+  font-size: 0.9em;
+}
+h6 {
+  font-size: 0.85em;
+}
+p, img {
+  margin: 0 0 1.2em 0;
+}
+/* list */
+ul, ol {
+  margin: 1em 0 1.4em 24px;
+  padding: 0;
+  line-height: 140%;
+}
+li {
+  margin: 0 0 .5em 0;
+  padding: 0;
+}
+ul.the-icons, ul.the-icons li {
+  list-style: none;
+}
+tr.odd {
+  background-color: #dddddd;
+}
+code,
+pre,
+kbd,
+samp,
+var {
+  padding: 0 0.4em;
+  font-size: 0.77em;
+  font-family: Menlo, Consolas, "Andale Mono", "Lucida Console", "Nimbus Mono L", "DejaVu Sans Mono", monospace, "Courier New";
+}
+code {
+  background-color: #f2f2f2;
+  background-color: rgba(40, 40, 0, 0.06);
+}
+pre code,
+pre kbd,
+pre samp,
+pre var,
+kbd kbd,
+kbd samp,
+code var {
+  font-size: 100%;
+  background-color: transparent;
+}
+pre code,
+pre samp,
+pre var {
+  padding: 0;
+}
+.description code {
+  font-size: 1em;
+}
+kbd {
+  background-color: #f2f2f2;
+  border: 1px outset #575757;
+  margin: 0 3px;
+  color: #666;
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 5px;
+}
+pre {
+  background-color: #f2f2f2;
+  background-color: rgba(40, 40, 0, 0.06);
+  margin: 10px 0;
+  overflow: hidden;
+  padding: 15px;
+  white-space: pre-wrap;
+}
+
+/* ------------------ Fonts ------------------ */
+body,
+#site-slogan,
+.ui-widget,
+.comment-form label {
+  font-family: "aller_lightregular", Georgia, "Times New Roman", Times, serif;
+}
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li a {
+  font-family: "aller_lightregular", Georgia, "Times New Roman", Times, serif !important;
+  font-weight: normal !important;
+}
+input,
+textarea,
+select {
+  font-family: "aller_lightregular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+/* ------------------ Table Styles ------------------ */
+
+table {
+  border: 0;
+  border-spacing: 0;
+  font-size: 0.857em;
+  margin: 10px 0;
+  width: 100%;
+}
+table table {
+  font-size: 1em;
+}
+#footer-wrapper table {
+  font-size: 1em;
+}
+table tr th {
+  background: #757575;
+  background: rgba(0, 0, 0, 0.51);
+  border-bottom-style: none;
+}
+table tr th,
+table tr th a,
+table tr th a:hover {
+  color: #fff;
+  font-weight: bold;
+}
+table tbody tr th {
+  vertical-align: top;
+}
+tr td,
+tr th {
+  padding: 4px 9px;
+  border: 1px solid #fff;
+  text-align: left; /* LTR */
+}
+#footer-wrapper tr td,
+#footer-wrapper tr th {
+  border-color: #555;
+  border-color: rgba(255, 255, 255, 0.18);
+}
+tr.odd {
+  background: #e4e4e4;
+  background: rgba(0, 0, 0, 0.105);
+}
+tr,
+tr.even {
+  background: #efefef;
+  background: rgba(0, 0, 0, 0.063);
+}
+table ul.links {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+table ul.links li {
+  padding: 0 1em 0 0;
+}
+

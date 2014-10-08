@@ -1,0 +1,4 @@
+.service-links ul.links li{display:inline-block;}
+.sprites.service-links span{display:block;}
+.service-links span.hide{display:none;}
+.sprites.service-links {background-repeat: no-repeat; float:left;}

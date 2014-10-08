@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName " Statistics"
+AuthName "markuttecht.com Statistics"
+AuthUserFile /var/chroot/home/content/55/7891355/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

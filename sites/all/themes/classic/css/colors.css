@@ -1,0 +1,273 @@
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #636262;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+#page,
+#main-wrapper {
+  background: #ffffff;
+}
+/* --- page title wrapper --*/
+#page-title-wrapper, #banner-area {
+  /*background: rgba(231, 231, 231, 0.4)  no-repeat top center; 
+  border-bottom: 1px solid rgba(234, 234, 234, 1); */
+  background-color: #f5f5f5;
+  background-image: url("../images/grid_masked_dark.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-bottom: 1px solid #eaeaea;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+#header {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+a {
+  color: #3b3b3b;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23aeff;
+  text-decoration: none;
+}
+a:active, a.selected {
+  color: #23aeff;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #3b3b3b;
+}
+#top-bar {
+  background: #23aeff;
+  color: #fff;
+}
+#top-bar a {
+  color: #fff;
+}
+#navigation .selector {
+  color: #fff;
+  background-color: #23aeff;
+  background-image: url("../images/responsive-nav.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+#navigation .selector option {
+  background: #fff;
+  -webkit-appearance: none;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+}
+#highlighted .block {
+  /*background: rgba(234, 234, 234, 0.5) url(../images/banner-shadow.png) no-repeat top center; */
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  text-shadow: 1px 1px #fff;
+  background-color: #f4f4f4;
+  background-image: url("../images/banner-shadow.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#footer-columns-wrapper {
+  /*background-color: rgba(59, 59, 59, 1);*/
+  background-color: #3a3a3a;
+  background-image: url("../images/grid_masked_dark.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top: 5px solid #eaeaea;
+}
+#page-wrapper,
+#footer-wrapper {
+  background: #212121;
+}
+
+#footer-columns, #footer {
+  color: rgba(255, 255, 255, 0.6);
+  color: #c0c0c0;
+}
+#footer-columns a, #footer a,
+#footer-columns h1, #footer-columns h2, #footer-columns h3, #footer-columns h4, #footer-columns h5, #footer-columns h6 {
+  color: rgba(255, 255, 255, 0.9);
+  color: #fcfcfc;
+}
+#footer-columns a:hover,
+#footer-columns a:focus, 
+#footer a:hover, #footer a:focus {
+  color: #23aeff;
+}
+
+#main-menu ul.menu a {
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+#main-menu ul.menu a:hover,
+#main-menu ul.menu a:focus,
+#main-menu ul.menu a:active,
+#main-menu ul.menu li a.active,
+#main-menu ul.menu li a.active-trail {
+  color: #23aeff;
+}
+#main-menu ul.menu ul {
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+}
+#main-menu ul.menu ul li.first {
+  /*background:  url("../images/up-aero.png") no-repeat 15px top;*/
+  background-image: url("../images/up-aero.png");
+  background-repeat: no-repeat;
+  background-position: 15px top;
+  padding-top: 10px;
+  margin-top: -10px;
+}
+#main-menu ul.menu ul li a {
+  border: 0;
+  -khtml-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #eaeaea;
+}
+#main-menu ul.menu ul ul li.first {
+  background: none;
+}
+
+/* ---- Navigation select box selector ----- */
+#navigation .selector option:hover {
+ background: #23aeff;
+}
+
+footer.link-wrapper {
+  border-left: 2px solid #eaeaea;
+  border-right: 2px solid #eaeaea;
+  background: rgba(234, 234, 234, 0.5);
+}
+
+/* ----- blockquote -----*/
+blockquote, .info-box {
+  border-left: 3px solid #23aeff;
+  background: rgba(234, 234, 234, 0.7);
+}
+
+/* -------------- Pager ------------- */
+.item-list .pager li.pager-item a{
+  border: 1px solid #ccc;
+  color: #fff;
+  background: #23aeff;
+}
+.item-list .pager li.pager-current {
+  border: 1px solid #ccc;
+}
+/* -------- jquery accordion and tabs ------- */
+.jquery-ui-filter-tabs ul.ui-tabs-nav li.ui-tabs-selected, .block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li.active a{
+  border-top: 2px solid #23aeff;
+}
+/* --- follow links ---*/
+#main .follow-links a {
+  -khtml-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #23aeff;
+  opacity: 1;
+}
+#main .follow-links a:hover {
+  opacity: 0.5;
+}
+body.page-node-lightbox2 #main .node-team-member .follow-links a {
+  margin-right: 2px;
+  width: 25px;
+  height: 25px;
+}
+ 
+/* -------- isotope grid -------- */
+.isotope-element {
+  color: #636262;
+}
+.isotope-element a {
+  color: #3b3b3b !important;
+}
+.image, .image a, .isotope-element .image a,
+.image h3, .image h4, .image h5, .image h6 {
+  color: #fff !important;
+}
+/* ----- image hover animation ------*/
+.image .image-hover {
+  background-color: #23aeff;
+}
+
+/* ------ skill bar -------- */
+.skillbar .skill-percentage{
+  background-color: #23aeff;
+}
+
+/* ------ back to top -------- */
+#backtotop:hover {
+  /*background-color: #23aeff;*/
+}
+
+/* ---- dropcaps ---- */
+.dropcap {
+  color: #23aeff;
+}
+.dropcap.circle {
+  background: #23aeff;
+}
+.dropcap.square {
+  background: #23aeff;
+}
+
+/*  --- hightlight button ---- */
+#highlighted .button, .region-featured .button, .info-box .button {
+  background-color: #23aeff;
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  text-shadow: 0 1px .01em rgba(255,255,255,0.7);
+}
+
+/*------- pricing tables ------- */
+.pricing-tables ul.package.recommended li.package-name,
+.pricing-tables ul.package.recommended li.package-name div,
+.pricing-tables ul.package.recommended li.package-price {
+  background-color: #23aeff;
+}
+
+/* ---- text highlights --- */
+.highlight {
+  background-color: #23aeff;
+  color: #fff;
+}
+
+/* ----- selected text -------- */
+::-moz-selection{ background: #23aeff; color: #ffffff; text-shadow: none; }
+::selection { background: #23aeff; color: #ffffff; text-shadow: none; } 
+
+
+
+/*******************************************************************
+* Color Module: Don't touch                                       *
+*******************************************************************/
+#featured {
+  border-bottom: 1px solid #eaeaea;
+  text-shadow: 1px 1px #fff;
+  /*background: rgba(234, 234, 234, 0.2) url(../images/banner-shadow.png) no-repeat top center;*/
+  background-color: #fbfbfb;
+  background-image: url("../images/banner-shadow.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
